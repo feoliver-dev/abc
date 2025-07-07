@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+}
+
+.card-1{
+    grid-area: card-1;
+    background-color: antiquewhite;
+}
+
+.card-2 {
+    grid-area: card-2;
+    background-color: antiquewhite;
+}
+
+.card-3 {
+    grid-area: card-3;
+    background-color: antiquewhite;
+}
+
+.card-4{
+    grid-area: card-4;
+}
+
+.container {
+    padding: 10px;
+    display: grid;
+    grid-template-areas:
+    "card-1 card-2"
+    "card-1 card-3"
+    "card-4 card-4";
+    justify-content: space-around;
+}
+
+.input-label {
+    position: relative;
+    display: inline-block;
+}
+
+
+.card-1 {
+    display: flex;
+    font-family:  'Open Sans', sans-serif;
+    border-radius: 7px;
+    padding: 5px;
+    width: 450px;
+    height: 300px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    justify-content: space-around;
+    align-items:flex;
+    flex-direction: column;
+    text-align: justify;
+}
+.items-header {
+    font-family:  'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #795342;
+}
+.item-name {
+    font-family:  'Open Sans', sans-serif;
+    font-size: 15px;
+    border-bottom: #bb7b60 1px solid;
+}
+
+.item-info {
+    font-size: 12px;
+    color:#746560;
+}
+
+.item-qtd {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.item-price{
+    font-size: 15px;;
+}
+
+
+.card-2 {
+    display: flex;
+    font-family:  'Open Sans', sans-serif;
+    border-radius: 7px;
+    width: 400px;
+    height: 140px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    flex-wrap: initial;
+}
+
+h5 {
+    font-family:  'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #795342;
+}
+input {
+    border-color: #43281c;
+    padding: 8px;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    
+}
+
+label {
+    font-family:  'Open Sans', sans-serif;
+    background-color: antiquewhite;
+    color: #d46b3e;
+    font-size: 13px;
+    position: absolute;
+    left: 25px;
+    top: -9px;
+    padding: 0 2px;
+  }
+
+.card-3 {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 7px;
+    align-content: center;
+    width: 400px;
+    height: 140px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    flex-wrap: initial;
+}
+
+.card-4 {
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction:row;
+    font-family:  'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+.receipt{
+    width: 600px;
+    justify-content: center;
+    padding-top: 200px;
+    
+}
+
+.button{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.button-order{
+    width: 600px;
+    font-size: large;
+    border-color: #eea98b;
+    border-style: solid;
+    padding: 8px;
+    background-color: #eea98b;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.button-order:hover{
+    background-color: #db9b7f;
+}
+header{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content:center;
+    background-color: #43281c;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo-img{
+    width:25px;
+}
+
+a{
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color:rgb(247, 241, 234);
+
+}
+
+a:hover {
+    color:rgb(187, 168, 140)
+}

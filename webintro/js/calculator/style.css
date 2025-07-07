@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+}
+
+.result-1{
+    grid-area: result;
+}
+.c {
+    grid-area: c;
+}
+
+.delete{
+    grid-area: delete;
+}
+
+.divide{
+    grid-area: divide;
+}
+.one{
+    grid-area: one;
+}
+.two{
+    grid-area: two;
+}
+.three{
+    grid-area: three;
+}
+.mutiplyx{
+    grid-area: multiplyx;
+}
+.four{
+    grid-area: four;
+}
+.five{
+    grid-area: five;
+}
+
+.less{
+    grid-area: less;
+}
+.six{
+    grid-area: six;
+}
+.seven{
+    grid-area: seven;
+}
+.eight{
+    grid-area: eight;
+}
+.nine{
+    grid-area: nine;
+}
+.plus{
+    grid-area: plus;
+}
+.zer0{
+    grid-area: zer0;
+}
+.equal{
+    grid-area: equal;
+}
+
+.calculadora {
+    display: grid;
+    grid-template-areas:
+    "result result result result"
+    "C  C delete divide"
+    "one two three multiplyx"
+    "four five seven less"
+    "seven eight nine plus"
+    "zero zero zer0 equal"
+    ;
+}
+
+.tabela-calculadora{
+    display: flex;
+    flex-direction: column;
+}
+tbody{
+    display: flex;
+    flex-direction: column;
+}
+.result-1{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: right;
+}
+.result{
+    display: flex;
+}
+
+.operator-2{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+.c {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 50%;
+}
+
+.delete{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+
+.divide {
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+
+.number-3{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.one{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+.two{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+.three{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+.multiplyx{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+
+.number-4{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+.four{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+.five{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+.six{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+.less{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+
+.number-5{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+.seven{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+.eight{
+        display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+.nine{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+.plus{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+
+.zero-equal-6{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+}
+.zer0{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 75%;
+}
+.equal{
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 25%;
+}
+
+button{
+    width:-webkit-fill-available;
+    background-color: rgb(202, 200, 200);
+    border-radius: 0%;
+    border-width: 0px;
+    text-align: center;
+}
+
+.button-less, .button-divide, .button-x, .button-plus, .button-equal{
+    background-color: rgb(255, 145, 0);
+}

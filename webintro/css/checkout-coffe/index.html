@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Masters</title>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+       <a href="#">
+        <img class="logo-img" src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png">Coffee Masters</a>
+    </header>
+    <main class="container">
+        <div class="card-1">
+            <table class="items-table">
+            <th class="items-header">ITEMS</th>
+
+            <tr class="item-row">
+                <td class="item-qtd">1x</td>
+                <td class="item-name">Cappuccino
+                    <p class="item-info">Lite foam</p>
+                </td>
+                <td class="item-price">$3.35</td>
+                
+            </tr>
+            <tr class="item-row">
+                <td class="item-qtd">1x</p>
+                <td class="item-name">Cappuccino
+                    <p class="item-info">Lite milk</p>
+                    <p class="item-info">Double espresso</p>
+                </td>
+                <td class="item-price">$3.85</td>
+
+            </tr>
+            <tr class="item-row">
+                <td class="item-qtd">1x</td>
+                <td class="item-name-1">Croissant
+                    <p class="item-info">Butter</p>
+                </td>
+                <td class="item-price">$2.45</td>
+            </tr>
+        </table>
+        </div>
+
+
+
+        <div class="card-2">
+            <h5>NAME</h5>
+            <div class="input-label">
+                <label for="name">Name for order</label>
+                <input id="name" type="text" inputmode="text" pattern="[A-Za-z\s]{1,50}" autocomplete="name" maxlength="50" placeholder="Ford Prefect">
+            </div>
+        </div>
+        
+        <div class="card-3">
+            <h5>PAYMENT</h5>
+            <div class="input-label">
+            <label for="ccn">Card Number</label> 
+            <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="1234567890123456">
+            </div>
+            <div class="input-label">
+                <label for="cvv">CVV Number</label> 
+                <input id="cvv" type="text" id="cvv" class="form-control" placeholder="001">
+            </div>
+
+        </div>
+
+        <div class="card-4">
+            <table class="receipt">
+                <tr>
+                    <th>Subtotal:</th>
+                    <td>$9.65</td>
+                </tr>
+                <tr>
+                    <th>Tax:</th>
+                    <td>$0.52</td>
+                </tr>
+                <tr>
+                    <th class="total">Total:</th>
+                    <td class="total">$10.47</td>
+                </tr>
+                <tr class="button">
+                    <td>
+                        <button class="button-order" type="submit" value="submit">Place Order</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+            
+    </main>
+</body>
+</html>
